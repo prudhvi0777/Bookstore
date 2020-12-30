@@ -1,0 +1,51 @@
+
+#cse,#it,#eee,#ece,#mech,#civil{
+	text-decoration:none;
+}
+#cse{
+	color:red;
+}
+#it{
+	color:gold;
+}
+#ece{
+	color:deeppink;
+}
+#eee{
+	color:springgreen;
+}
+#mech{
+	color:teal;
+}
+#civil{
+	color:aqua;
+}
+ #cse:hover 
+{
+	background:red;
+	color:white;
+}
+#cse:hover{
+	background:red;
+	color:white
+}
+#it:hover{
+	background:gold;
+	color:white
+}
+#ece:hover{
+	background:deeppink;
+	color:white
+}
+#eee:hover{
+	background:springgreen;
+	color:white
+}
+#mech:hover{
+	background:teal;
+	color:white
+}
+#civil:hover{
+	background:aqua;
+	color:white
+}

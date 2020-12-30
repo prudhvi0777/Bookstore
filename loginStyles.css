@@ -1,0 +1,73 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.loginbox
+{
+    position: absolute;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid orange;
+    padding: 40px;
+    box-shadow: 5px 5px 5px 5px orange;
+    border-radius: 10%;
+}   
+.loginbox h1
+{
+    color: royalblue;
+    margin-bottom: 10px;
+    float:left;
+    border-bottom: 2px solid royalblue;
+    padding: 10px 0px;
+}
+.text
+{
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0px;
+    font-size: 30px;
+    margin: 10px 0px;
+    border-bottom: 1px solid red;
+}
+.text i
+{
+    width: 20px;
+    float:left;
+    text-align: center;
+}
+.text input
+{
+    border: none;
+    outline: none;
+    background: none;
+    color:black;
+    width:80%;
+    font-size: 18px;
+    float: left;
+    margin: 5px 12px;
+    
+}
+.btn
+{
+	color:black;
+	background:none;;
+	border:2px solid black;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px 0px;
+    padding: 5px;
+    
+}
+.btn:hover
+{
+    background:teal;
+    color : snow;
+
+}

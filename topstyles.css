@@ -1,0 +1,29 @@
+ a
+{
+	text-decoration:none;
+	color:'darkturquoise';
+	font-size:18px;
+}
+a:hover
+{
+	background:DodgerBlue;
+	color:white;
+}
+p
+{
+	text-align:left;
+	padding:0;
+	padding-top:0;
+	margin-top:0;
+}
+.bs
+{
+	font-size:45px;
+	
+	
+}
+#time,#date
+{
+	font-size:15px;
+	color:black;
+}

@@ -1,0 +1,72 @@
+<html>
+	<head>
+	<style>
+		select{
+			width:700px;
+			color:blue;
+		}
+	</style>
+	</head>
+	<body>
+		<h1  align=center><font color=OLIVE >FEED BACK FORM</font></h1><br>
+		<table  cellpadding=15 cellspacing=10 bgcolor=wheat height=300 width='100%' >
+			<form method='post' action='first.php'>
+				<tr>
+					<th>
+						First Name
+					</th>
+					<td>
+						<input type='text' placeholder='First Name' size=100 required >
+					</td>
+				</tr>
+				<tr>
+					<th>
+						Last Name
+					</th>
+					<td>
+						<input type='text' placeholder='Last Name' required size=100>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						 Mail
+					</th>
+					<td>
+						<input type='email' placeholder='Mail' required size=100>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						Select Country
+					</th>
+					<td>
+						<select name='country' required>
+							<option value='' selected='selected'>Select Country</option>
+							<option value=''>India</option>
+							<option value='' >Aus</option>
+							<option value='' >USA</option>
+							<option value='' >UK</option>
+						</select><br><br>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						FEEDBACK
+					</th>
+					<td>
+						<textarea required cols=100 rows=5 placeholder='write something' ></textarea>
+					</td>
+				</tr>
+				<tr>
+					<th>
+					</th>
+					<td>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+						<input type='submit' name='submit' width=10px ></input>
+					</td>
+				</tr>
+			</form>
+		</table>
+	</body>
+</html>
